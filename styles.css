@@ -1,0 +1,49 @@
+body {
+  background-color: #ffe569;
+}
+
+.middle-page {
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+.middle-page-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.middle-page-right > * {
+  width: 75%;
+}
+
+.middle-page-left {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+h4,
+h5 {
+  padding: 0.1rem;
+  margin: 0.1rem;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  padding: 0.2rem;
+  background-color: #bdac56;
+}
